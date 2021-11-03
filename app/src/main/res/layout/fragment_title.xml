@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Copyright 2018, The Android Open Source Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -65,7 +63,7 @@
             android:layout_marginTop="24dp"
             android:layout_marginEnd="100dp"
             android:layout_marginBottom="24dp"
-            android:fontFamily="@font/contrail_one"
+            android:fontFamily="sans-serif"
             android:text="Muh. Yoga Triatmojo H.W"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#4AAA35"
@@ -85,7 +83,7 @@
             android:layout_marginStart="100dp"
             android:layout_marginEnd="100dp"
             android:layout_marginBottom="24dp"
-            android:fontFamily="@font/contrail_one"
+            android:fontFamily="sans-serif"
             android:text="D121191007"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#4AAA35"
