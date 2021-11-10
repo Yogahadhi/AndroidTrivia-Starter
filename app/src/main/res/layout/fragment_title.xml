@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><!--
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
   ~ Copyright 2018, The Android Open Source Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -56,43 +58,36 @@
             app:srcCompat="@drawable/android_trivia" />
 
         <TextView
-            android:id="@+id/id_nama"
+            android:id="@+id/textView_Nama"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="100dp"
             android:layout_marginTop="24dp"
-            android:layout_marginEnd="100dp"
-            android:layout_marginBottom="24dp"
+            android:layout_marginBottom="16dp"
             android:fontFamily="sans-serif"
             android:text="Muh. Yoga Triatmojo H.W"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#4AAA35"
             android:textColorHint="#4AAA35"
             android:textSize="34sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toTopOf="@+id/id_nim"
+            app:layout_constraintBottom_toTopOf="@+id/textView_NIM"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.493"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/titleImage" />
+            app:layout_constraintTop_toBottomOf="@+id/titleImage"
+            app:layout_constraintVertical_bias="0.758" />
 
         <TextView
-            android:id="@+id/id_nim"
+            android:id="@+id/textView_NIM"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="100dp"
-            android:layout_marginEnd="100dp"
             android:layout_marginBottom="24dp"
             android:fontFamily="sans-serif"
             android:text="D121191007"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#4AAA35"
             android:textColorHint="#4AAA35"
             android:textSize="34sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/playButton"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.489"
             app:layout_constraintStart_toStartOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
